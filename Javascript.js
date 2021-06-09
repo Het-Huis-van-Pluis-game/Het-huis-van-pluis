@@ -1,4 +1,7 @@
 //start knop
-object.onclick = function(){myScript};
-
-<button onclick="myFunction()">Start</button>
+let button = document.getElementById("start")
+button.addEventListener("click", function() {
+    console.log("click button");
+    // window.location.href = "woonkamer.html";
+    document.body.style.backgroundImage = 'url("room.jpg")'
+})

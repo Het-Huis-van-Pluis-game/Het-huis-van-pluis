@@ -1,6 +1,5 @@
 body
 {
-    background-image: url("home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,3 +30,11 @@ button
     margin-top: 150px;
     margin-left: 650px;
 } 
+
+.home {
+    background-image: url("home.jpg");
+}
+
+.room {
+    background-image: url("room.jpg");
+}
