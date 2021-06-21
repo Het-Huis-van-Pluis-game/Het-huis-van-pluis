@@ -1,21 +1,73 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Het huis van Pluis</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script defer src="script.js"></script>  
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Title</title>
 </head>
+<body>
 
-<html>
-    
-    
-<!-- Homepagina -->
-<body class="home"> 
-        
-        
-    <h1> Het huis van Pluis </h1>
-        
-    <button id="start">Start</button>
-        
+    <div class="woonkamer">
+<!--        &lt;!&ndash; Pluis &ndash;&gt;-->
+<!--        <div class="pratende-pluis">-->
+<!--            <audio id="audio_play">-->
+<!--                <source src="meow.mp3" type="audio/mp3" />-->
+<!--            </audio>-->
+<!--            <img src="pratende%20pluis2.png" onClick="document.getElementById('audio_play').play(); return false;"-->
+<!--                 alt="cat says meow" class="pratende-pluis"/>-->
+<!--        </div>-->
+        <!-- opdracht1 -->
+        <div class="opdracht1">
+
+            <!-- audio kat -->
+            <div class="row">
+                <div class="item">
+                    <audio id="audio_playKat">
+                        <source src="audioKat.mp4" type="audio/mp3" />
+                    </audio>
+                    <button onClick="document.getElementById('audio_playKat').play(); return false;"
+                            class="task-btn-group"> kat </button>
+                </div>
+            </div>
+            <br>
+
+            <!-- audio a -->
+            <div class="row">
+                <div class="item" >
+                    <audio id="audio_playA">
+                        <source src="audioA.mp4" type="audio/mp3"  />
+                    </audio>
+                    <button onClick="document.getElementById('audio_playA').play(); return false;"
+                            class="task-btn-group" id="select-CheckboxA" > a </button>
+                </div>
+
+
+            <!-- checkboxA-->
+<!--                <div class="item" id="check-btnA" >-->
+<!--                    <button class="task-btn-group" > </button>-->
+<!--                </div>-->
+
+                <!-- checkbox -->
+                <div class="item">
+                    <button class="task-btn-group" id="check-btn"> </button>
+                </div>
+
+
+                <div class="item">
+                    <!-- audio o -->
+                    <audio id="audio_playO">
+                        <source src="audioO.mp4" type="audio/mp3" />
+                    </audio>
+                    <button onClick="document.getElementById('audio_playO').play(); return false;"
+                            class="task-btn-group" > o </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
 </body>
-
 </html>
