@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
     <title>Title</title>
 </head>
 <body>
@@ -26,8 +26,7 @@
                     <audio id="audio_playKat">
                         <source src="audioKat.mp4" type="audio/mp3" />
                     </audio>
-                    <button onClick="document.getElementById('audio_playKat').play(); return false;"
-                            class="task-btn-group"> kat </button>
+                    <button class="task-btn-group" value="Kat"> kat </button>
                 </div>
             </div>
             <br>
@@ -38,8 +37,7 @@
                     <audio id="audio_playA">
                         <source src="audioA.mp4" type="audio/mp3"  />
                     </audio>
-                    <button onClick="document.getElementById('audio_playA').play(); return false;"
-                            class="task-btn-group" id="select-CheckboxA" > a </button>
+                    <button class="task-btn-group" id="select-CheckboxA" value="A"> a </button>
                 </div>
 
 
@@ -50,7 +48,7 @@
 
                 <!-- checkbox -->
                 <div class="item">
-                    <button class="task-btn-group" id="check-btn"> </button>
+                    <button class="task-btn-group" id="check-btn" value="check"> </button>
                 </div>
 
 
@@ -59,8 +57,7 @@
                     <audio id="audio_playO">
                         <source src="audioO.mp4" type="audio/mp3" />
                     </audio>
-                    <button onClick="document.getElementById('audio_playO').play(); return false;"
-                            class="task-btn-group" > o </button>
+                    <button class="task-btn-group" value="O"> o </button>
                 </div>
             </div>
 
