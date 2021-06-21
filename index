@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Het huis van Pluis</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script defer src="script.js"></script>  
+</head>
+
+<html>
+    
+    
+<!-- Homepagina -->
+<body class="home"> 
+        
+        
+    <h1> Het huis van Pluis </h1>
+        
+    <button id="start">Start</button>
+        
+</body>
+
+</html>
