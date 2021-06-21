@@ -14,7 +14,7 @@ h1
     margin-top: 200px;
 }
 
-button
+#start
 {
     width:200px;
     height:40px;
@@ -22,8 +22,6 @@ button
     border-radius:15px;
     box-shadow:0px 0px 10px 3px rgba(0,0,0,0.2);
     background-color:#ffae00;
-    color:#000000;
-    font-family:sans-serif;
     font-size:32px;
     cursor:hand;
     cursor:pointer;
