@@ -17,7 +17,7 @@ for (const button of buttons) {
 
 function handleButtonClick(evt) {
     buttons.forEach(b => b.style.backgroundColor = "")
-    evt.target.style.backgroundColor = "Green"
+    evt.target.style.backgroundColor = "#d3d3d3"
     let char = evt.target.value
     if(char != "check") {
         document.getElementById('audio_play'+char).play()
@@ -28,5 +28,5 @@ function handleButtonClick(evt) {
 }
 
 function handleCheckButton() {
-    window.location.href = "index.html"
+    window.location.href = "cats.html"
 }
