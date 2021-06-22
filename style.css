@@ -21,13 +21,13 @@ h1
     border:none;
     border-radius:15px;
     box-shadow:0px 0px 10px 3px rgba(0,0,0,0.2);
-    background-color:#ffae00;
+    background-color:#ffffff;
     font-size:32px;
     cursor:hand;
     cursor:pointer;
     text-align: center;
     margin-top: 150px;
-    margin-left: 650px;
+    margin-left: 43%;
 } 
 
 .home {
@@ -99,3 +99,57 @@ button.task-btn-group {
     padding-left: 20px;
 }
 
+div.flexbox {
+    margin-top: -700px;
+    margin-left: 950px;
+}
+
+div.flexbox .one {
+    display: flex;
+    height: 25%;
+}
+
+div.flexbox .two {
+    display: flex;
+    height: 25%;
+    padding: 5px; 
+}
+
+button.check-button {
+    width: 50px;
+    height: 50px;
+    margin-left: 170px;
+    margin-top: 25px;
+}
+
+img[src="cats 6.png"] {
+    max-height: 50px;
+    position: relative;
+    top: 35%;
+    left: 58%;
+    margin-left: 15px;
+}
+
+img[src="cats 7.png"] {
+    max-height: 50px;
+    position: relative;
+    top: 44%;
+    left: 10%;
+    margin-left: 15px;
+}
+
+img[src="cats 8.png"] {
+    max-height: 50px;
+    position: relative;
+    top: 65%;
+    left: 25%;
+    margin-left: 15px;
+}
+
+img[src="cats 9.png"] {
+    max-height: 50px;
+    position: relative;
+    top: 55%;
+    left: 58%;
+    margin-left: 15px;
+}
